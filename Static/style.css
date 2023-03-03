@@ -23,7 +23,7 @@ body {
 }
 
 .card-container {
-    width: 60%;
+    width: 40%;
     min-height: 50vh;
     border-radius: 20px;
     background-color: var(--white);
