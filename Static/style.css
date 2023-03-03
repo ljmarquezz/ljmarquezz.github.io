@@ -27,10 +27,12 @@ body {
     height: 80vh;
     border-radius: 20px;
     background-color: var(--white);
-    border: 4px solid var(--very-light-gray);
+    box-shadow: 1px 1.75px var(--very-light-gray);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1%;
 }
 
 .card-top {
@@ -39,20 +41,20 @@ body {
     align-items: center;
     width: 100%;
     height: fit-content;
-    ;
 }
 
-.wallpaper-img {
+.wallpaper-img-container {
+    border-radius: 16px 16px 0 0;
     width: 100%;
     height: 30%;
+    border-bottom: 2px solid var(--very-light-gray);
+    background: #0c1b32;
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
 }
-
-.wallpaper-img img {
-    width: 100%;
+.wallpaper-img-container img {
     height: 100%;
-    object-fit: cover;
-    border-radius: 16px 16px 0 0;
-    border-bottom: 4px solid var(--very-light-gray);
 }
 
 .wallpaper-border {
@@ -63,14 +65,14 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .profile-pic {
-    border: 4px solid var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    position: absolute;
     
 }
 
@@ -82,8 +84,11 @@ body {
     z-index: 1;
 }
 
+.card-body {
+    padding-top: 58px;
+}
+
 .name {
-    margin-top: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,6 +147,7 @@ body {
     font-size: var(--sm);
     font-weight: bold;
     padding-left: 4px;
+    margin: 4px 0;
 }
 
 .about-me {
@@ -158,4 +164,3 @@ body {
     margin: 0;
     padding: 0 12px;
 }
-
