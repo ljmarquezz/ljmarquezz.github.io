@@ -151,7 +151,7 @@ body {
     align-items: center;
     text-align: left;
     color: var(--very-light-gray);
-    font-size: 12px;
+    font-size: var(--sm);
     margin: 0;
 }
 
