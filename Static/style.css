@@ -175,4 +175,8 @@ body {
     .contact-info a p {
         display: none;
     }
+
+    .contact-info section p {
+        padding-left: 4px;
+    }
 }
